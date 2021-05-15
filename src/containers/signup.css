@@ -1,0 +1,100 @@
+
+.signup-parent {
+  background-image: url('../assets/wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    display: flex;
+    font-family: "PT Sans Narrow", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .signup-container {
+    margin-top: 2rem;
+    background-color: #e0e0e060 !important;
+    width: 600px;
+    min-height: 600px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px gray;
+    border: 1px solid rgba(121, 104, 104, 0.287);
+    padding: 20px;
+  }
+  
+  .MuiButton-containedPrimary {
+    margin: 1rem !important;
+    width: 40% !important;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  .shipping-address {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+  }
+  
+  .signup-form input  {
+    font-size: 16px;
+    padding: 10px;
+    width: 40%;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: rgb(253, 253, 253);
+  }
+  .select{
+    font-size: 16px;
+    padding: 10px;
+    width: 40%;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    font-family: "PT Sans Narrow", sans-serif;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* MEDIA QUERIES */
+  @media (max-width: 600px) {
+    .signup-container {
+      width: 90%;
+      padding: 20px;
+    }
+   
+    .MuiButton-containedPrimary {
+      width: 80% !important;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .signup-form input  {
+      display: block;
+      margin: 15px auto;
+      text-align: center;
+      width: 80% !important;
+      background-color: rgb(253, 253, 253);
+    }
+    .select{
+      display: block;
+      margin: 15px auto;
+      text-align: center !important;
+      width: 80% !important;
+      background-color: rgb(253, 253, 253);
+      color: rgb(0, 0, 0);
+      font-family: "PT Sans Narrow", sans-serif;
+      align-items: center !important;
+      justify-content: center!important;
+    }
+  }
+  
